@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alpha motors gallery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>A {text-decoration: none;} 
+            .footer {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: red;
+                color: white;
+                text-align: center;
+            }
+            * {box-sizing: border-box}
+            body {font-family: Verdana, sans-serif; margin:0}
+            .mySlides {display: none}
+            img {vertical-align: middle;}</style>
+        <link href="styles/sflstyle.css" rel="stylesheet" type="text/css">
+        <link href="styles/sflstyle2.css" rel="stylesheet" type="text/css">
+    </head>
+    <div class="rectangle"></div>
+    <div class="rectangle2"></div>
+    <div class="rectangle3"></div>
+    <div class="outline"></div>
+    <div class="image"></div>
+    <div class="line"></div>
+
+    <body background="IMG/background.jpg">
+        <img src="IMG/logo.png" alt="sfl logo" height="85" width="300">
+        <div class="img">
+
+        </div>
+
+        <div class="item">
+            <div class="button"> 
+                <a href="Index.html"><font color="ghostwhite">Home</font></a>
+            </div>
+            <div class="euca">
+                <h5 class ="heading"></h5>
+                <div class="video">
+
+                </div>
+                <div class="font11">
+                    <h5>Gallery of used cars in SA</h5>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div class="button2">
+                    <a href="gallery.html"><font color="ghostwhite">Gallery</font></a>
+                </div>
+                <div class="button3">
+                    <a href="Our Work.html"><font color="ghostwhite">Our Work</font></a>
+                </div>
+                <div class="button4">
+                    <a href="Contact Us.html"><font color="ghostwhite">Contact Us</font></a>
+                </div>
+                <div class="button5">
+                    <a href="about.html"><font color="ghostwhite">About</font></a>
+                </div>
+                <div class="button6">
+                    <a href="Get Involved.html"><font color="ghostwhite">Get Involved</font></a>
+                </div>
+
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/alphamotorsma">
+                    <img src="IMG/facebook.png" alt="facebook logo" width="75" height="75">
+                </a>
+            </div>
+            <div class="social2"> 
+                <a href="https://twitter.com/alphamotorsllc?lang=en">
+                    <img src="IMG/twitter.png" alt="twitter logo" height="75" width ="75"></a>
+            </div>
+            <div class="social3">
+                <a href="https://www.instagram.com/explore/locations/1026730482/alpha-motors/?hl=en">
+                    <img src="IMG/instagram.png" alt="instagram logo" height="75" width="75">
+                </a>
+            </div>
+
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <!-- Container for the image gallery -->
+        <div style="margin-left:300px" class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="1.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="2.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="3.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="4.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="5.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="6.jpg" style="width:100%">
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- Image text -->
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Corvette">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="2.jpg" style="width:100%" onclick="currentSlide(2)" alt="The Aston Martin">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="3.jpg" style="width:100%" onclick="currentSlide(3)" alt="The Lamborghini">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="4.jpg" style="width:100%" onclick="currentSlide(4)" alt="The Ford">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="5.jpg" style="width:100%" onclick="currentSlide(5)" alt="The Mustang">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="6.jpg" style="width:100%" onclick="currentSlide(6)" alt="The Ferrari">
+                </div>
+            </div>
+        </div>
+
+        <!--
+        
+        <div class="round">
+            <figure>
+                <img src="IMG/all-new-focus-kmi-Jelly-bean.png" alt="car">
+                <figcaption>New Ford Focus R200 000</figcaption>
+            </figure>
+        </div>
+        <figure>
+            <div class="round2">
+                <img src="IMG/everest.jpg" alt="4x4 car">
+                <figcaption>Ford Everest R300 000</figcaption>
+            </div>
+        </figure>
+        <figure>
+            <div class="main">
+                <img src="IMG/Fiesta_BlueWave_5dr.png" alt="car default"  />
+                <figcaption>Ford Fiesta R220 000</figcaption>
+            </div>
+        </figure>
+        <figure>
+            <div class="second">
+                <img src="IMG/fiesta-st.jpg" alt="car sport edition" />
+                <figcaption>Fiesta ST R280 000</figcaption>
+            </div>
+        </figure>
+        <figure>
+            <div class="third">
+                <img src="IMG/focus.jpg" alt="focus car" />
+                <figcaption>Ford Focus</figcaption>
+            </div>
+        </figure>
+        <figure>
+            <div class="fourth">
+                <img src="IMG/focus-st.jpeg" alt="focus st" />
+                <figcaption>Ford Focus ST R300 000</figcaption>
+            </div>
+        </figure>
+        <div class="kuga">
+            <figure>
+                <img src="IMG/kuga.jpg" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Kuga 250 000</figcaption>
+            </figure>
+        </div>
+        <div class="mustang">
+            <figure>
+                <img src="IMG/mustang.jpg" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Mustang R600 000</figcaption>
+            </figure>
+        </div>
+        <div class="eco">
+            <figure>
+                <img src="IMG/new-ecosport.jpg" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Eco Sport R400 000</figcaption>
+            </figure>
+        </div>
+        <div class="figo">
+            <figure>
+                <img src="IMG/new-figo-Jelly-bean.png" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Figo R300 000</figcaption>
+            </figure>
+        </div>
+        <div class="ranger">
+            <figure>
+                <img src="IMG/ranger.jpeg" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Ranger R500 000</figcaption>
+            </figure>
+        </div>
+        <div class="rangerblue">
+            <figure>
+                <img src="IMG/Ranger_XLT_BlueLightning_wnp.png" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Ranger Blue Lighting R550 000</figcaption>
+            </figure>
+        </div>
+        <div class="raptor">
+            <figure>
+                <img src="IMG/ranger-raptor.jpg" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Raptor R600 000</figcaption>
+            </figure>
+        </div>
+        <div class="tor">
+            <figure>
+                <img src="IMG/tourneo-custom.jpg" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Torneo R250 000</figcaption>
+            </figure>
+        </div>
+        <div class="transit">
+            <figure>
+                <img src="IMG/transit-custom.jpg" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Transit R300 000</figcaption>
+            </figure>
+        </div>
+        <div class="pick">
+            <figure>
+                <img src="IMG/transit-single-chasis-cab.jpg" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Transit pick up R 250 000</figcaption>
+            </figure>
+        </div>
+        <div class="transitvan">
+            <figure>
+                <img src="IMG/transit-van.jpg" width="360" height="180" alt="Ford Kuga"/>
+                <figcaption>Ford Transit Van R 2500 000</figcaption>
+            </figure>
+        </div>
+        
+        <section>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="img/car1.jpg" style="width:100%">
+                        <div class="text">Caption Text</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="img/car2.jpg" style="width:100%">
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="img/car3.jpg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+        <!--<div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+        -->
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+// Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+// Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("demo");
+                var captionText = document.getElementById("caption");
+                if (n > slides.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = slides.length
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                captionText.innerHTML = dots[slideIndex - 1].alt;
+            }
+        </script>
+    </section>
+
+    <div class="footer">
+        <p>Made by: Christo Konidaris --------------------------------------------------------------------------------------------------------------------------------------------------------------------- Contact information: <a href="cars_motors@Alpha.com">cars_motors@Alpha.com</a></p>          
+    </div>
+
+</body>
+</html>

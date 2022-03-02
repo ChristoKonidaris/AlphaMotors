@@ -1,0 +1,157 @@
+.round{
+	position: absolute;
+	opacity:1;
+	top:350px;
+	left:120px;
+}
+.round:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.round2{
+	position:absolute;
+	opacity:1;
+	top: 350px;
+	left: 1043px;
+}
+.round2:hover {
+    transform: scale(1.5);
+}
+.main{
+	position:absolute;
+	opacity:1;
+	top:1050px;
+	left: 120px;
+	
+}
+.main:hover {
+    transform: scale(1.5);
+}
+.second{
+	position: absolute;
+	opacity:1;
+	top:1050px;
+	left:1043px;
+}
+.second:hover {
+    transform: scale(1.5);
+}
+.third {
+	position:absolute;
+	opacity:1;
+	top:1400px;
+	left:120px;
+}
+.third:hover {
+    transform: scale(1.5);
+}
+.fourth{
+	position:absolute;
+	opacity:1;
+	top:1400px;
+	left:1043px;
+}
+.fourth:hover {
+    transform: scale(1.5);
+}
+.kuga{
+	position: absolute;
+	opacity:1;
+	top:600px;
+	left:120px;
+}
+.kuga:hover {
+    transform: scale(1.5);
+}
+.mustang{
+	position:absolute;
+	opacity:1;
+	top: 600px;
+	left: 1043px;
+}
+.mustang:hover {
+    transform: scale(1.5);
+}
+.eco{
+	position: absolute;
+	opacity:1;
+	top:1800px;
+	left:120px;
+}
+.eco:hover {
+    transform: scale(1.5);
+}
+.figo{
+	position:absolute;
+	opacity:1;
+	top: 1800px;
+	left: 1043px;
+}
+.figo:hover {
+    transform: scale(1.5);
+}
+.ranger{
+	position: absolute;
+	opacity:1;
+	top:2200px;
+	left:120px;
+}
+.ranger:hover {
+    transform: scale(1.5);
+}
+.rangerblue{
+	position:absolute;
+	opacity:1;
+	top: 2200px;
+	left: 1043px;
+}
+.rangerblue:hover {
+	
+    transform: scale(1.5);
+}
+.raptor{
+	position: absolute;
+	opacity:1;
+	top:2600px;
+	left:120px;
+}
+.raptor:hover {
+    transform: scale(1.5);
+}
+.tor{
+	position:absolute;
+	opacity:1;
+	top: 2600px;
+	left: 1043px;
+}
+.tor:hover {
+	
+    transform: scale(1.5);
+}
+.transit{
+	position: absolute;
+	opacity:1;
+	top:3000px;
+	left:120px;
+}
+.transit:hover {
+    transform: scale(1.5);
+}
+.pick{
+	position:absolute;
+	opacity:1;
+	top: 3000px;
+	left: 1043px;
+}
+.pick:hover {
+	
+    transform: scale(1.5);
+}
+.transitvan{
+	position: absolute;
+	opacity:1;
+	top:3400px;
+	left:120px;
+}
+.transitvan:hover {
+    transform: scale(1.5);
+}
