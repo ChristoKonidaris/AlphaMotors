@@ -1,2 +1,2 @@
 # AlphaMotors
-Website developed for course work.
+Website for a vehicle dealership developed for course work.
